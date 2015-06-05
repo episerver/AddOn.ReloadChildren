@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<languages>
+  <language name="English" id="en">
+    <addon>
+      <reloadchildren>
+        <command>
+          <label>Reload Children</label>
+          <tooltip>Reloads the children of the selected tree node.</tooltip>
+        </command>
+      </reloadchildren>
+    </addon>
+  </language>
+</languages>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>AddOn.ReloadChildren</id>
+    <version>$version$</version>
+    <title>AddOn.ReloadChildren</title>
+    <authors>EPiServer AB</authors>
+    <owners>EPiServer</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Adds a command to the page tree that reloads the children of the selected tree node.</description>
+    <copyright>Copyright 2015</copyright>
+    <tags>EPiServerModulePackage EPiServer-UI</tags>
+    <dependencies>
+      <dependency id="EPiServer.CMS.UI" version="[7.6.0,9.0)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\$configuration$\AddOn.ReloadChildren.dll" target="lib\net45\" />
+    <file src="bin\$configuration$\AddOn.ReloadChildren.zip" target="content\modules\_protected\AddOn.ReloadChildren\" />
+  </files>
+</package>
